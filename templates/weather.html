@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather for {{ city }}</title> <!-- Set the title of the page to display the city name -->
+    <link href="/static/styles1.css" rel="stylesheet" type="text/css" /> <!-- Link the CSS file for styling -->
+</head>
+<body>
+    <h1>Weather for {{ city }}</h1> <!-- Display the heading with the city name -->
+    <h3>Temperature: {{ temperature }}°C</h3> <!-- Display the temperature in Celsius -->
+    <h3 class="gap">Description: {{ description }}</h3> <!-- Display the weather description -->
+</body>
+</html>

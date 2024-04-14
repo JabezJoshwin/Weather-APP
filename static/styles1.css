@@ -1,0 +1,61 @@
+/* Global styles for the body */
+body {
+  font-family: Arial, sans-serif;  /* Use Arial font */
+  background-color: #f0f0f0;  /* Set background color */
+  margin: 0;  /* Remove default margin */
+  padding: 0;  /* Remove default padding */
+  display: flex;  /* Use flexbox for layout */
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  height: 100vh;  /* Set height to 100% of viewport height */
+  background-image: url('https://images.unsplash.com/photo-1548041347-390744c58da6?q=80&w=2892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  /* Set background image */
+background-size: cover;  /* Cover the entire background */
+background-position: center;  /* Center the background image */
+}
+
+/* Style for the container */
+.container {
+  background-color: #fff;  /* Set background color of the container */
+  padding: 20px;  /* Add padding */
+  border-radius: 10px;  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add shadow */
+  text-align: center; /* Align text in the container to center */
+}
+
+/* Styles for headings */
+h1, h3 {
+  color: #333;  /* Set text color */
+  margin-bottom: 20px;   /* Add bottom margin */
+  padding-right: 20px;    /*Add padding right to Separate each line by 20px */
+  margin-left: 100px;/* Add left margin */
+}
+
+/* Style for h1 heading */
+h1 {
+  font-size: 50px;   /* Set font size */
+}
+
+/* Style for h3 headings */
+h3 {
+  font-size: 35px;  /* Set font size */
+  color: white;  /* Set text color */
+  padding-left: 20px;  /* Add left padding */
+  padding-right: 40px;  /* Add right padding */
+  margin-left: 150px;  /* Add left margin */
+}
+
+/* Style for temperature */
+.temperature {
+  font-weight: italic;  /* Set font weight to italic */
+  margin-left: 80px;  /* Add left margin */
+}
+
+/* Style for gap class */
+.gap {
+  padding-right: default;  /* Set padding right */
+}
+
+/* Style for description */
+.description {
+  font-style: bold;  /* Set font style to bold */
+}

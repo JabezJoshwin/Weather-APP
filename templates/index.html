@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title> <!-- Set the title of the page -->
+    <link href="/static/styles.css" rel="stylesheet" type="text/css" /> <!-- Link the CSS file for styling -->
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1620301598483-f872a86a58af?q=80&w=2922&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"> <!-- Set the background image -->
+    <h1>Weather App</h1> <!-- Display the heading -->
+    <form action="/weather" method="POST"> <!-- Form for submitting the city name -->
+        <label for="city">Enter City:</label> <!-- Label for the city input field -->
+        <input type="text" id="city" name="city" required> <!-- Input field for entering the city name -->
+        <button type="submit">Get Weather</button> <!-- Submit button to retrieve weather information -->
+    </form>
+</body>
+</html>
